@@ -21,7 +21,7 @@ lib*.pc
 .tox
 .cproject
 .vscode
-build
+build*
 _build
 CMakeLists.txt.user
 /VersionInfo*.cmake
