@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 BUILDS=(release debug)
-N=20
+N=14
 
 ./compile.sh
 
