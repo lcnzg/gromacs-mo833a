@@ -1,0 +1,26 @@
+diff --git a/src/gromacs/awh/biasparams.cpp b/src/gromacs/awh/biasparams.cpp
+index 6f9b0d387d..2bcc711a62 100644
+--- a/src/gromacs/awh/biasparams.cpp
++++ b/src/gromacs/awh/biasparams.cpp
+@@ -47,6 +47,7 @@
+ #include "biasparams.h"
+ 
+ #include <cmath>
++#include <limits>
+ 
+ #include <algorithm>
+ 
+diff --git a/src/gromacs/modularsimulator/modularsimulator.cpp b/src/gromacs/modularsimulator/modularsimulator.cpp
+index 2d785ab50f..8a94e9f106 100644
+--- a/src/gromacs/modularsimulator/modularsimulator.cpp
++++ b/src/gromacs/modularsimulator/modularsimulator.cpp
+@@ -39,6 +39,8 @@
+  * \ingroup module_modularsimulator
+  */
+ 
++#include <limits>
++
+ #include "gmxpre.h"
+ 
+ #include "modularsimulator.h"
+

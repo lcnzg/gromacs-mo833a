@@ -47,6 +47,7 @@
 #include "biasparams.h"
 
 #include <cmath>
+#include <limits>
 
 #include <algorithm>
 

@@ -39,6 +39,8 @@
  * \ingroup module_modularsimulator
  */
 
+#include <limits>
+
 #include "gmxpre.h"
 
 #include "modularsimulator.h"
