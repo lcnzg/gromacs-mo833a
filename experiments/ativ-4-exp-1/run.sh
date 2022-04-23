@@ -19,4 +19,4 @@ perf record --call-graph dwarf $GMX mdrun -v -deffnm em
 valgrind --tool=callgrind $GMX mdrun -v -deffnm em
 
 # perf report 
-# callgrind_annotate callgrind.out.*
+# callgrind_annotate --inclusive=yes callgrind.out.*
